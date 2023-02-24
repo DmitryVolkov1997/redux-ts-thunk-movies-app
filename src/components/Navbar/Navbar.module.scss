@@ -1,0 +1,15 @@
+.navbar {
+  @apply bg-gray-900 text-white;
+
+  &Row {
+    @apply min-h-[70px] shadow-xl drop-shadow-md flex justify-center items-center gap-3.5;
+  }
+
+  &Logo {
+    @apply w-14 h-14;
+  }
+
+  &Text {
+    @apply uppercase text-3xl font-medium font-sans;
+  }
+}
